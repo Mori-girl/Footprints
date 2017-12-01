@@ -1,13 +1,13 @@
 本例子采用**react+flux+webpack**的方式实现用户列表，其功能点包括显示、增加和删除操作。
-##Table of Contents ##
+## Table of Contents ##
 ![contentTable](assets/contentTable.png)
 
-##Core Achieve##
+## Core Achieve##
 - 采用**flux**架构模式使数据和逻辑永远单向流动，避免了MVC架构的混乱的数据流动方式
 - 使用**localstorage**存储用户数据，借助JSON对象实现对象数组的序列化和反序列化
 - 使用**filereader**API将图片转化为DataURI，从而实现图片的本地存储   
      
-##flux module ##
+## flux module ##
 ![flowchart](assets/flowchart.png)
 Flux将一个应用分为四个部分
 * View负责订阅store中的数据，并使用这些数据渲染相关的页面
@@ -28,6 +28,6 @@ Flux将一个应用分为四个部分
 - 对于control-view模式没有深刻理解
 - 代码规范还不到位
 
-##Plan ##
+## Plan ##
 - 继续把《深入react技术栈》这本书看完，后面抽空把这个例子改成基于react+redux+Typescript模式
 
